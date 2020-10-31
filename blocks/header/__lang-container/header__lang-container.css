@@ -1,0 +1,6 @@
+.header__lang-container {
+  display: flex;
+  /*align-self: start;*/
+  justify-self: end;
+  box-sizing: content-box;
+}

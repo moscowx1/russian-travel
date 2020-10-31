@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  margin: auto;
+  height: 52px;
+  padding-top: 28px;
+}
+
+@media all and (max-width: 320px) {
+  .header {
+    height: 42px;
+    padding-top: 16px;
+  }
+}
