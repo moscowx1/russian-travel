@@ -5,11 +5,22 @@
   "title website"
   "image text";
   grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 80px;
+}
+
+.place:last-child {
+  padding-bottom: 0;
 }
 
 @media all  and (max-width: 600px) {
   .place {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media all  and (max-width: 320px) {
+  .place {
+    padding-bottom: 50px;
   }
 }

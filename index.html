@@ -4,43 +4,7 @@
   <title>Путешествие по России</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  <!--<link rel="stylesheet" href="index.css">-->
-  <link rel="stylesheet" href="vendor/normalize.css">
-
-  <link rel="stylesheet" href="vendor/fonts/Inter/inter.css">
-
-
-  <link rel="stylesheet" href="blocks/page/page.css">
-
-  <link rel="stylesheet" href="blocks/header/header.css">
-  <link rel="stylesheet" href="blocks/header/__lang-container/header__lang-container.css">
-  <link rel="stylesheet" href="blocks/header/__lang-link/header__lang-link.css">
-  <link rel="stylesheet" href="blocks/header/__lang-link/header__lang-link_selected.css">
-  <link rel="stylesheet" href="blocks/header/__logo/header__logo.css">
-
-  <link rel="stylesheet" href="blocks/lead/lead.css">
-  <link rel="stylesheet" href="blocks/lead/__caption/lead__caption.css">
-  <link rel="stylesheet" href="blocks/lead/__image/lead__image.css">
-  <link rel="stylesheet" href="blocks/lead/__subtitle/lead__subtitle.css">
-  <link rel="stylesheet" href="blocks/lead/__title/lead__title.css">
-
-  <link rel="stylesheet" href="blocks/intro/intro.css">
-  <link rel="stylesheet" href="blocks/intro/__title/intro__title.css">
-  <link rel="stylesheet" href="blocks/intro/__list/intro__list.css">
-  <link rel="stylesheet" href="blocks/intro/__text/intro__text.css">
-  <link rel="stylesheet" href="blocks/photo-grid/photo-grid.css">
-  <link rel="stylesheet" href="blocks/photo-grid/__item/photo-grid__item.css">
-
-  <link rel="stylesheet" href="blocks/places/places.css">
-
-  <link rel="stylesheet" href="blocks/place/place.css">
-  <link rel="stylesheet" href="blocks/place/__image/place__image.css">
-  <link rel="stylesheet" href="blocks/place/__link/place__link.css">
-  <link rel="stylesheet" href="blocks/place/__paragraph/place__paragraph.css">
-  <link rel="stylesheet" href="blocks/place/__title/place__title.css">
-  <link rel="stylesheet" href="blocks/place/__url-heading/place__url-heading.css">
-  <link rel="stylesheet" href="blocks/place/__website/place__website.css">
-  <link rel="stylesheet" href="blocks/place/__text/place__text.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <div class="page">
@@ -62,6 +26,7 @@
            alt="Девушка спит в вагоне">
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
+
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">
@@ -249,7 +214,50 @@
         </li>
       </ul>
     </section>
+
+    <section class="cover">
+      <div class="cover__background"></div>
+      <!--<div class="cover__content">
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+      </div>-->
+      <a class="cover__overlay"
+         href="https://stampsy.com/na-elektrichkakh-do-baikala"
+         target="_blank"
+         rel="noopener noreferrer">
+        <div class="cover__content">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+        </div>
+      </a>
+    </section>
   </main>
+  <footer class="footer">
+    <nav class="footer__links">
+      <a class="footer__link"
+         href="https://yandex.ru/maps"
+         target="_blank"
+         rel="noopener noreferrer">Карты</a>
+      <a class="footer__link"
+         href="https://yandex.ru/pogoda"
+         target="_blank"
+         rel="noopener noreferrer">Погода</a>
+      <a class="footer__link"
+         href="https://rasp.yandex.ru"
+         target="_blank"
+         rel="noopener noreferrer">Расписание</a>
+      <a class="footer__link"
+         href="https://calendar.yandex.ru"
+         target="_blank"
+         rel="noopener noreferrer">Календарь</a>
+      <a class="footer__link"
+         href="https://travel.yandex.ru"
+         target="_blank"
+         rel="noopener noreferrer">Путешествия</a>
+    </nav>
+    <p class="footer__copyright">&copy; 2020.Кирилл</p>
+    </nav>
+  </footer>
 </div>
 </body>
 </html>

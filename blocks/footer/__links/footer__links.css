@@ -1,0 +1,17 @@
+.footer__links {
+  display: flex;
+}
+
+@media all and (max-width: 660px) and (min-width: 450px){
+  .footer__links {
+    flex-wrap: wrap;
+    height: 80px;
+}
+}
+
+@media all and (max-width: 450px) {
+  .footer__links {
+    flex-direction: column;
+    padding-bottom: 48px;
+  }
+}
