@@ -1,0 +1,15 @@
+.place {
+  display: grid;
+  gap: 28px 50px;
+  grid-template-areas:
+  "title website"
+  "image text";
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media all  and (max-width: 600px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+  }
+}

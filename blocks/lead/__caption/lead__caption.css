@@ -1,0 +1,13 @@
+.lead__caption {
+  font-size: 10px;
+  line-height: 1.4;
+  margin: 8px 0 0;
+}
+
+@media (min-width: 1024px) {
+  .lead__caption {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 984px;
+  }
+}
