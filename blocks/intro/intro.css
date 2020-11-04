@@ -1,8 +1,15 @@
 .intro {
-  width: 90%;
   margin: 0 auto;
   padding-top: 92px;
   color: white;
+  max-width: 984px;
+}
+
+@media all and (max-width: 1060px) {
+  .intro {
+    width: 90%;
+    max-width: none;
+  }
 }
 
 @media all and (max-width: 320px){

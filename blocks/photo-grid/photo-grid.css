@@ -4,8 +4,7 @@
   padding-top: 90px;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px 15px;
-  width: 90%;
-  max-width: 1184px;
+  width: 92%;
 }
 
 @media all and (max-width: 1024px){

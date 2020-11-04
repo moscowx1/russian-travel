@@ -1,14 +1,12 @@
 .place__image {
   grid-area: image;
-  max-width: 440px;
+  max-width: 460px;
   width: 100%;
 }
 
 @media all  and (max-width: 600px) {
   .place__image {
-    position: relative;
-    top: 0;
-    left: -6%;
+    margin-left: -5%;
     max-width: none;
     width: 100vw;
   }
