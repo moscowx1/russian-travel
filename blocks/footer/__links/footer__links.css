@@ -4,15 +4,11 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  min-width: 460px;
-  justify-content: space-between;
 }
 
 @media all and (max-width: 450px) {
   .footer__links {
     flex-direction: column;
-    align-content: space-between;
-    min-height: 200px;
     padding-bottom: 48px;
   }
 }

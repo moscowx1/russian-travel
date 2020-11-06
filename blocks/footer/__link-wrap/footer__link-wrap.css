@@ -1,0 +1,9 @@
+.footer__link-wrap {
+  padding-right: 18px;
+}
+
+@media all and (max-width: 450px) {
+  .footer__link-wrap {
+    padding-bottom: 32px;
+  }
+}

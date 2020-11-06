@@ -1,10 +1,17 @@
 .footer {
   display: flex;
-  justify-content: space-between;
-  width: 92%;
   margin: 0 auto;
-  padding-top: 90px;
-  padding-bottom: 25px;
+  padding: 90px 50px 25px;
+  max-width: 1184px;
+  box-sizing: content-box;
+  justify-content: space-between;
+}
+
+@media all and (max-width: 768px) {
+  .footer {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
 }
 
 @media all and (max-width: 450px) {
