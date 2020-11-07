@@ -9,13 +9,14 @@
 
 @media all and (max-width: 768px) {
   .footer {
-    padding: 0 25px 0 25px;
+    padding: 90px 25px 50px;
   }
 }
 
 @media all and (max-width: 450px) {
   .footer {
     flex-direction: column;
+    margin: 0;
     padding: 60px 118px 24px 16px;
     max-width: 186px;
     height: 310px;
