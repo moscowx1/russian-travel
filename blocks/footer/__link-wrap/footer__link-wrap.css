@@ -4,6 +4,6 @@
 
 @media all and (max-width: 450px) {
   .footer__link-wrap {
-    padding-bottom: 32px;
+    padding: 0 0 32px;
   }
 }
